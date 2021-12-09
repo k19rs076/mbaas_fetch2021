@@ -51,6 +51,7 @@
             var data = results[i].get("text");
             var update = results[i].get("updateDate");
             msg += data + ":" + update + "<br>";
+            <table><tr><th>data</th><th>update</th></tr></table>
           }
           $("#message").html(msg);
         })
